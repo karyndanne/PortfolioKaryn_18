@@ -1,0 +1,393 @@
+body {
+    margin: 0px;
+    background-color: #f6f6f8;
+}
+header {
+        width: 100%;
+        height: 100px;
+        background-image: url("/images/syed.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+}
+.logo {
+}
+
+
+button {
+height: 20px;
+font-size: 14px;
+color: #f6f6f8;
+padding: 10px;
+text-align: center;
+text-justify: center;
+background-color: transparent;
+border: none;
+}
+
+.button {
+    background-color: #1F3D27;
+    color: #f6f6f8;
+    text-align: center;
+    border-radius: 20px;
+    width: 100px;
+    height: 20px;
+    cursor: pointer;
+}
+.largeBtn {
+    background-color: #1F3D27;
+    color: #f6f6f8;
+    text-align: center;
+    border-radius: 20px;
+    width: 30%;
+    height: 24px;
+    font-size: 18px;
+    margin: 10px;
+    cursor: pointer;
+    display: block;
+    margin: 50px auto;
+}
+.btnBlock {
+    background-color: #f6f6f8;
+    width: 1200px;
+    height: 100px;
+    display: block;
+    margin: 25px auto;
+}
+
+
+
+
+.PicAndName {
+    width: 1200px;
+    height: 300px;
+    background-color: #f6f6f8; 
+    margin-left:auto;
+    margin-right: auto;
+    display: flex;
+}
+.Pic {
+    background-color: #f6f6f8;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Pic img {
+   height: 150px;
+   width: 150px;
+    background-color: rgb(109, 109, 13);
+    border-radius: 60px;
+    }
+.Name {
+    background-color: #f6f6f8;
+    color: #1F3D27;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Name h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 64px;
+    line-height: 70px;
+    margin-bottom: 10px;
+}
+.Name p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 28px;
+    line-height: 28px;
+    margin-bottom: -50px;
+}
+.Name img {
+    height: 20px;
+    width: 20px;
+    background-color: #1F3D27 ;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: #1F3D27;
+    border-radius: 100%;
+}
+
+
+.AboutMe {
+    width: 1200px;
+    height: 680px;
+    background-color: #f6f6f8; 
+    margin-left:auto;
+    margin-right:auto;
+    display: flex;
+    
+}
+.About {
+    background-color: #f6f6f8;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: right;
+    
+}
+.About h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;   width: 150px;
+    font-size: 64px; 
+    text-align: right;
+    min-width: 560px;
+    color: #1F3D27;
+  }
+  
+  .About p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;   width: 150px;
+    font-size: 14px; 
+    text-align: right;
+    min-width: 560px;
+  }
+.AboutImage {
+    background-color: rgb(78, 65, 148);
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.AboutImage img {
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat ;
+    background-size: cover;
+}
+
+
+.PortfolioSnapshot {
+    width: 1200px;
+    height: 1080px;
+    background-color: #f6f6f8; 
+    margin: 0% auto 0% auto;
+    color: #1F3D27;
+    display: flex;
+    flex-direction: column;
+}
+
+.PortfolioSnapshot h1 {
+    width: 1200px;
+    height: 80px;
+    background-color: #f6f6f8; 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 64px;
+    color: #1F3D27;
+    text-align: center;
+}
+.Portfolio {
+    width: 1200px;
+    margin-left:auto;
+    margin-right:auto;
+    background-color: #f6f6f8; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/*.CaseStudies{
+    background-color: #f6f6f8;
+    color: #1F3D27;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}*/
+
+.CaseStudy {
+    width: 1200px;
+    height: 300px;
+    margin: 0% auto 0% auto;  
+    display: flex;
+    flex-direction: row;
+}
+.CaseStudy img {
+    height: 280px;
+    width: 466.5px;
+    margin: 10px 133px 10px 133px;
+    background-color: #1F3D27;
+    border-radius: 20px;    
+    }
+
+.CaseStudy1 {
+    background-color: #f6f6f8;
+    width: 600px;
+    margin-top: 50px;
+}
+.CaseStudy2 {
+    background-color: #f6f6f8;
+    width: 600px;
+    align-items: Right;
+    margin-top: 50px;
+    text-align: right;
+}
+
+
+.Samples {
+    width: 1200px;
+    height: 1080px;
+    background-image: url("/images/syed.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left:auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sampleContent {
+    width: 710px;
+}
+.sampleContent img {
+    height: 520px;
+    width: 710px;
+    background-color: rgb(49, 49, 25);
+    border-radius: 60px;
+}
+.description{
+    color: #f6f6f8;
+    text-align: center;
+    align-items: center;
+}
+.Samples p {
+    background-color: #99A393;
+    color: black;
+}
+.Samples h1 {
+    font-size: 64px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    color: #f6f6f8;
+}
+
+
+.AboutMe {
+    width: 1200px;
+    height: 680px;
+    background-color: #f6f6f8; 
+    margin-left:auto;
+    margin-right:auto;
+    display: flex;
+    
+}
+
+/*.imageSpace {
+    width: 1440px;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    display: flex;
+    flex-direction: row;
+}
+.imageSpace img {
+    width: 50%;
+    background-image: url("/class/images/annie.jpg");
+    background-repeat: no-repeat ;
+    background-size: contain;
+    transform: rotate(90deg);
+}*/
+
+.SpaceBreak {
+    width: 1200px;
+    height: 600px;
+    background-color: #f6f6f8; 
+    margin-left:auto;
+    margin-right:auto;
+    display: flex;
+    flex-direction: row;
+}
+.SpaceImage {
+    width: 70%;
+    height: 600px;
+    box-sizing: border-box;
+}
+.SpaceImage img {
+    height: 600px;
+    background-repeat: no-repeat ;
+    background-size: cover;
+    transform: rotate(90deg);
+}
+.Space {
+    background-color: #f6f6f8;
+    width: 30%;
+}
+
+
+.ContactAndSocial {
+    width: 1200px;
+    height: 600px;
+    background-color: #f6f6f8; 
+    margin-left:auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Contact {
+    background-color: #f6f6f8;
+    color: #1F3D27;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.ContactAndSocial img {
+    height: 100px;
+    width: 100px;
+     background-color: rgb(109, 109, 13);
+     border-radius: 80px;
+     }
+.Contact h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 64px;
+    line-height: 70px;
+    margin-bottom: 10px;
+}
+.Contact p {
+    font-size: 28px;
+    line-height: 28px;
+    text-align: center;
+}
+/*.Social img {
+    height: 20px;
+    width: 20px;
+    background-color: #1F3D27 ;
+    border: #1F3D27;
+    border-radius: 100%;
+}*/
+
+.Contact img {
+    height: 20px;
+    width: 20px;
+    background-color: #1F3D27 ;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: #1F3D27;
+    border-radius: 100%;
+}
+footer {
+    width: 1440px;
+    height: 100px;
+    background-image: url("/images/syed.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row;
+
+}
+footer p {
+    color: #f6f6f8;
+    font-size: 18px;
+    margin: 40px  auto;
+}
